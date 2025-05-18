@@ -1,4 +1,3 @@
-// Page.tsx
 "use client";
 import Hero from "./_components/sections/Hero";
 import Specs from "./_components/sections/Specs";

@@ -1,36 +1,136 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ✨ Xbox Series X | Next-Gen Gaming Experience! ✨
 
-## Getting Started
+> **Experience the power of next-generation gaming with Xbox Series X.** 🎮 Explore stunning visuals, immersive 3D experiences, and smooth animations in this interactive showcase of Microsoft's flagship console.
 
-First, run the development server:
+![Xbox Series X](https://socialify.git.ci/dola5xd/xbox-series-x/image?description=1&font=KoHo&language=1&name=1&owner=1&stargazers=1&theme=Dark)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🌟 Features
+
+✅ Immersive 3D console visualization  
+✅ Next-gen gaming showcase  
+✅ Smooth animations with GSAP and Lenis  
+✅ Responsive design for all devices  
+✅ Interactive UI elements  
+✅ High-performance rendering with Three.js
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** 🚀 Next.js 15.3.1
+- **3D Rendering:** 🎨 Three.js, React Three Fiber, Drei
+- **Animations:** 🎥 GSAP, Lenis for smooth scrolling
+- **Styling:** 🎨 Tailwind CSS 4.1.7
+- **Type Safety:** 📝 TypeScript 5.8.3
+- **Icons:** 🔍 React Icons
+- **Performance:** 🚄 Hardware-accelerated rendering with GPU detection
+
+---
+
+## 📸 Screenshots
+
+Take a look at the stunning visuals of the Xbox Series X showcase!
+
+![Home Page](./screenshots/home_page.png)
+
+---
+
+## ⚡ Installation
+
+Clone the repository:
+
+```sh
+git clone https://github.com/dola5xd/xbox-series-x.git
+cd xbox-series-x
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Development
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Start the development server with Turbopack:
 
-## Learn More
+```sh
+npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Build for production:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+npm run build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Start the production server:
 
-## Deploy on Vercel
+```sh
+npm run start
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Lint your code:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```sh
+npm run lint
+```
+
+---
+
+## 🤝 Contributing
+
+🚀 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+---
+
+## 📄 License
+
+📜 This project is licensed under the **MIT License**.
+
+---
+
+## 🧠 Project Structure
+
+```
+xbox-series-x/
+├── app/                # Next.js app directory
+│   ├── page.tsx        # Main page component
+│   ├── layout.tsx      # Root layout component
+│   ├── _components/        # React components
+│   ├── 3DComponents/   # 3D-related components
+│   ├── sections/       # Page section components
+│   │   ├── Button.tsx
+│   │   ├── Counter.tsx
+│   │   ├── Header.tsx
+│   │   └── Slider.tsx
+│   ├── ControllerModel.tsx  # Xbox controller 3D model
+│   ├── OldGames.tsx    # Retro games component
+│   ├── _context/           # React context providers
+│   ├── _hooks/             # Custom React hooks
+│   ├── _lib/               # Utility functions
+│   ├── _assets/            # Project assets
+│   └── globals.css         # Global CSS styles
+├── public/             # Static assets
+│
+
+```
+
+---
+
+## 🔮 Key Features Explained
+
+### 3D Console Visualization
+
+Experience the Xbox Series X in stunning 3D with interactive controls to rotate, zoom, and explore the console from every angle.
+
+### Performance Optimization
+
+Using detect-gpu for hardware capability detection to deliver the optimal experience based on the user's device.
+
+### Smooth Animations
+
+Combination of GSAP for element animations and Lenis for butter-smooth scrolling creates an immersive, high-quality user experience.
+
+---
+
+💖 Made with passion by **dola5xd**

@@ -7,7 +7,6 @@ import ViewCanvas from "./_components/3DComponents/ViewCanvas";
 import ReactLenis from "lenis/react";
 import { VersionProvider } from "./_context/VersionContext";
 
-// ✅ Global SEO metadata
 export const metadata: Metadata = {
   title: "Xbox Series X | Redesign Microsoft Xbox",
   description:
@@ -16,7 +15,7 @@ export const metadata: Metadata = {
     title: "Xbox Series X | Redesign Microsoft Xbox",
     description:
       "Experience the power of the Xbox Series X. Learn about its next-gen specs, blazing performance, and premium accessories.",
-    url: "https://your-domain.com",
+    url: "https://xbox-series-x.vercel.app/",
     siteName: "Xbox Series X",
     images: [
       {
@@ -37,7 +36,7 @@ export const metadata: Metadata = {
     images: ["/assets/images/xbox_logo.svg"],
     creator: "@adelYasser",
   },
-  metadataBase: new URL("https://your-domain.com"), // 🔁 Replace with your actual base URL
+  metadataBase: new URL("https://xbox-series-x.vercel.app/"),
 };
 
 export default function RootLayout({
@@ -47,7 +46,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="antialiased w-screen min-h-dvh overflow-x-hidden">
+      <body className="w-screen overflow-x-hidden antialiased min-h-dvh">
         <ReactLenis root>
           <LoadingProvider>
             <VersionProvider>

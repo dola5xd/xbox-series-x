@@ -10,7 +10,6 @@ function Slider({ images }: { images: string[] }) {
   const imageRef = useRef<HTMLDivElement>(null);
   const controlsRef = useRef<HTMLDivElement>(null);
 
-  // Touch position
   const touchStartX = useRef<number | null>(null);
 
   useEffect(() => {
